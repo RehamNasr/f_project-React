@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer {
+     .element-center{
+          @apply flex justify-center items-center 
+     }
+     .container{
+          @apply mx-auto
+     }
+     .btn{
+          @apply bg-[#6ea9b1] border-r-8 text-white hover:bg-[#8cdae4] transition-all duration-200  cursor-pointer font-medium
+     }
+}
+body {
+     font-family: 'Roboto', sans-serif;
+     background-color:#181e2a;
+}
+h1{
+     font-size: 40px;
+     line-height: 40px;
+     
+}
+h4{
+     
+     cursor: pointer;
+
+    
+    
+}
+h4:hover{
+     
+     font-weight: bold;
+     color: rgb(62, 138, 204);
+}
+#fo img{
+     cursor: pointer;
+     transition: .5s;
+}
+#fo img:hover{
+     transform: scale(1.2);
+}
+
+/* header{
+     background-color: #1c2230;
+     width: 100%;
+     margin: auto;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     padding: 50px 130px;
+     font-size: 22px;
+}
+
+header ul li{
+     padding: 20px 80px;
+}
+header ul li:hover{
+     text-decoration: underline;
+} */
